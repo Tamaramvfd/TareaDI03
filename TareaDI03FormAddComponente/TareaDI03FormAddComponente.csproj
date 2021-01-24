@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{50E164A5-94EC-44A4-8C22-51CFBFC95D8D}</ProjectGuid>
+    <ProjectGuid>{ADE88C45-3ED4-4203-ACA4-BFE9891BCEA6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>TareaDI03Componente</RootNamespace>
-    <AssemblyName>TareaDI03Componente</AssemblyName>
+    <RootNamespace>TareaDI03FormAddComponente</RootNamespace>
+    <AssemblyName>TareaDI03FormAddComponente</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,13 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reloj.cs" />
-    <Compile Include="WatchComponent.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="WatchComponent.Designer.cs">
-      <DependentUpon>WatchComponent.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,9 +66,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="WatchComponent.resx">
-      <DependentUpon>WatchComponent.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
