@@ -69,10 +69,10 @@
             // lbSecond
             // 
             this.lbSecond.AutoSize = true;
-            this.lbSecond.Font = new System.Drawing.Font("Arial Rounded MT Bold", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSecond.Location = new System.Drawing.Point(164, 185);
+            this.lbSecond.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSecond.Location = new System.Drawing.Point(169, 185);
             this.lbSecond.Name = "lbSecond";
-            this.lbSecond.Size = new System.Drawing.Size(57, 38);
+            this.lbSecond.Size = new System.Drawing.Size(49, 32);
             this.lbSecond.TabIndex = 3;
             this.lbSecond.Text = "00";
             // 

@@ -16,5 +16,10 @@ namespace FormWatchControl
         {
             InitializeComponent();
         }
+
+        private void watchControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

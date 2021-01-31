@@ -33,16 +33,18 @@
             // 
             // watchControl1
             // 
-            this.watchControl1.Location = new System.Drawing.Point(12, 12);
+            this.watchControl1.Alarm = new System.DateTime(((long)(0)));
+            this.watchControl1.Format = false;
+            this.watchControl1.Location = new System.Drawing.Point(18, 18);
             this.watchControl1.Name = "watchControl1";
             this.watchControl1.Size = new System.Drawing.Size(405, 266);
-            this.watchControl1.TabIndex = 1;
+            this.watchControl1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(389, 308);
+            this.ClientSize = new System.Drawing.Size(432, 308);
             this.Controls.Add(this.watchControl1);
             this.Name = "Form1";
             this.Text = "Form1";
