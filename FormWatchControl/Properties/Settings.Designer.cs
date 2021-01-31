@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TareaDI03FormAddComponente.Properties
+namespace FormWatchControl.Properties
 {
 
 

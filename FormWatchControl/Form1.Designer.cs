@@ -1,4 +1,4 @@
-﻿namespace TareaDI03Componente
+﻿namespace FormWatchControl
 {
     partial class Form1
     {
@@ -28,24 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.watchComponent1 = new TareaDI03Componente.WatchComponent();
+            this.watchControl1 = new WatchControl.WatchControl();
             this.SuspendLayout();
             // 
-            // watchComponent1
+            // watchControl1
             // 
-            this.watchComponent1.BackColor = System.Drawing.SystemColors.Control;
-            this.watchComponent1.Location = new System.Drawing.Point(12, 12);
-            this.watchComponent1.Name = "watchComponent1";
-            this.watchComponent1.Size = new System.Drawing.Size(397, 255);
-            this.watchComponent1.TabIndex = 0;
-            this.watchComponent1.Load += new System.EventHandler(this.watchComponent1_Load);
+            this.watchControl1.Location = new System.Drawing.Point(12, 12);
+            this.watchControl1.Name = "watchControl1";
+            this.watchControl1.Size = new System.Drawing.Size(405, 266);
+            this.watchControl1.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 280);
-            this.Controls.Add(this.watchComponent1);
+            this.ClientSize = new System.Drawing.Size(389, 308);
+            this.Controls.Add(this.watchControl1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -54,7 +52,7 @@
 
         #endregion
 
-        private WatchComponent watchComponent1;
+        private WatchControl.WatchControl watchControl1;
     }
 }
 

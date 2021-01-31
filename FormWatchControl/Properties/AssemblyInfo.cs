@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TareaDI03FormAddComponente")]
+[assembly: AssemblyTitle("FormWatchControl")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TareaDI03FormAddComponente")]
+[assembly: AssemblyProduct("FormWatchControl")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ade88c45-3ed4-4203-aca4-bfe9891bcea6")]
+[assembly: Guid("ea7ffe12-ec84-4597-91a0-f7528ac60caa")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TareaDI03Componente")]
+[assembly: AssemblyTitle("WatchControl")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TareaDI03Componente")]
+[assembly: AssemblyProduct("WatchControl")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("50e164a5-94ec-44a4-8c22-51cfbfc95d8d")]
+[assembly: Guid("12174e7d-32e6-46ee-ab1c-3b5584573d6b")]
 
 // Version information for an assembly consists of the following four values:
 //
