@@ -12,7 +12,7 @@ namespace WatchControl
 {
     public partial class WatchControl : UserControl
     {
-        private Boolean _format;
+        private Boolean _format = true;
         private DateTime _alarm;
        
         public Boolean Format
@@ -28,16 +28,14 @@ namespace WatchControl
         public WatchControl()
         {
             InitializeComponent();
-            cbFormat.Text = "24";
-            cbFormat.Items.Add("12");
-            cbFormat.Items.Add("24");
             timer1.Start();
             timer2.Start();
+            timer3.Start();
             
         }
         private void WatchControl_Load(object sender, EventArgs e)
         {
-            lbDate.Text = DateTime.Now.ToString("ddd, dd/MM/yy");
+            //lbDate.Text = DateTime.Now.ToString("ddd, dd/MM/yy");
             //lbHourMin.Text = DateTime.Now.ToString("HH:mm");
         }
 
@@ -48,15 +46,37 @@ namespace WatchControl
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            if (cbFormat.Text == "12")
-            {
-                lbHourMin.Text = DateTime.Now.ToString("hh:mm tt");
-            }
-            else if (cbFormat.Text == "24")
+            if (radioButton_CheckedChanged())
             {
                 lbHourMin.Text = DateTime.Now.ToString("HH:mm");
             }
+            else
+            {
+                lbHourMin.Text = DateTime.Now.ToString("hh:mm tt");
+            }
+        }
 
+        public Boolean radioButton_CheckedChanged()
+        {
+            if(radioButton12.Checked)
+            {
+                return _format = false;
+            }
+            else
+            {
+                return _format = true;
+            }
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            lbDate.Text = DateTime.Now.ToString("ddd, dd/MM/yy");
+        }
+
+        private void btAlarm_Click(object sender, EventArgs e)
+        {
+            Dashboard ad = new Dashboard(_format);
+            ad.Show();
         }
     }
 }

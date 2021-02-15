@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace FormWatchControl
 {
-    public partial class Form1 : Form
+    public partial class WatchForm : Form
     {
-        public Form1()
+        public WatchForm()
         {
             InitializeComponent();
+        }
+
+        private void WatchForm_Load(object sender, EventArgs e)
+        {
+
         }
 
         private void watchControl1_Load(object sender, EventArgs e)
